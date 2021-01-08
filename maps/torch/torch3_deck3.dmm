@@ -3805,10 +3805,8 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/ofd)
 "hG" = (
-/obj/effect/floor_decal/corner/green{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "hH" = (
 /obj/effect/floor_decal/techfloor/corner,
@@ -6955,10 +6953,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/effect/floor_decal/corner/green{
-	dir = 9
+/obj/machinery/light/spot{
+	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/obj/machinery/light_switch{
+	pixel_y = 23
+	},
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "ov" = (
 /obj/effect/floor_decal/corner/green,
@@ -7067,11 +7068,8 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/green{
-	dir = 1;
-	icon_state = "corner_white"
-	},
-/turf/simulated/floor/tiled,
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "oL" = (
 /obj/structure/cable/green{
@@ -7785,19 +7783,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/ofd)
-"qk" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/green{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/thirddeck/fore)
 "ql" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/machinery/meter,
@@ -8181,12 +8166,8 @@
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/galley)
 "ro" = (
-/obj/machinery/light_switch{
-	pixel_x = -19;
-	pixel_y = 5
-	},
-/turf/simulated/floor/tiled/white,
-/area/pool)
+/turf/simulated/floor/tiled/freezer,
+/area/hallway/primary/thirddeck/fore)
 "rp" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -9435,7 +9416,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/fore)
 "tS" = (
@@ -11358,7 +11339,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "zn" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -13131,9 +13112,15 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
 "Ef" = (
-/obj/structure/closet/athletic_mixed,
-/turf/simulated/floor/tiled/white,
-/area/pool)
+/obj/structure/hygiene/shower{
+	dir = 8;
+	icon_state = "shower";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/tiled/freezer,
+/area/hallway/primary/thirddeck/fore)
 "Eg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/trash,
@@ -14037,11 +14024,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/green{
-	dir = 8;
-	icon_state = "corner_white"
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "Gl" = (
 /obj/machinery/light/small{
@@ -18821,9 +18804,9 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
 "RT" = (
-/obj/machinery/door/firedoor,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled,
+/obj/structure/closet/athletic_mixed,
+/obj/machinery/light/spot,
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "RV" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
@@ -19275,10 +19258,8 @@
 "Te" = (
 /obj/structure/table/steel,
 /obj/machinery/recharger,
-/obj/effect/floor_decal/corner/green{
-	dir = 6
-	},
-/turf/simulated/floor/tiled,
+/obj/machinery/light/spot,
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "Tg" = (
 /obj/effect/floor_decal/corner/grey/diagonal{
@@ -20516,10 +20497,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/obj/effect/floor_decal/corner/green{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "Wh" = (
 /obj/structure/disposalpipe/segment{
@@ -20779,10 +20758,10 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "WX" = (
-/obj/effect/floor_decal/corner/green{
-	dir = 6
+/obj/machinery/light/spot{
+	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/freezer,
 /area/hallway/primary/thirddeck/fore)
 "WY" = (
 /obj/structure/bed/chair/wood,
@@ -21594,15 +21573,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/storage/tools)
-"Zj" = (
-/obj/structure/hygiene/shower{
-	dir = 4;
-	icon_state = "shower";
-	pixel_x = 0;
-	pixel_y = 0
-	},
-/turf/simulated/floor/tiled/white,
-/area/pool)
 "Zl" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 5
@@ -30723,11 +30693,11 @@ Qf
 ZL
 KZ
 yH
-Ef
-ro
-Zj
-Zj
-Zj
+ZC
+ZC
+ZC
+ZC
+ZC
 ZC
 IT
 MO
@@ -32337,14 +32307,14 @@ pF
 vF
 ts
 xI
-RT
+mj
 ot
 Gk
-qk
+Gk
 oK
 Wf
 hG
-hG
+RT
 zS
 Gs
 UO
@@ -32541,12 +32511,12 @@ wI
 xJ
 tR
 zl
-VU
-VU
-VU
-VU
-VU
-VU
+ro
+ro
+ro
+ro
+ro
+ro
 Ze
 Yb
 Ur
@@ -32741,13 +32711,13 @@ Yt
 uu
 wJ
 pq
-RT
+mj
 WX
-WX
-WX
-WX
-WX
-WX
+Ef
+Ef
+Ef
+Ef
+ro
 Te
 zS
 UI
